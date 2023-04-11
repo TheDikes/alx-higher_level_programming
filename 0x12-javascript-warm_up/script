@@ -1,0 +1,4 @@
+#!/usr/bin/node
+git add .
+git commit -m "Js Warm-up"
+git push
