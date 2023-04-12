@@ -8,5 +8,6 @@ if (args.length < 2) {
 } else {
   const sortedArgs = args.sort((a, b) => b - a);
   let secBiggest = sortedArgs[1];
+  
   console.log(Number.isInteger(secBiggest) ? secBiggest : 0);
 }
