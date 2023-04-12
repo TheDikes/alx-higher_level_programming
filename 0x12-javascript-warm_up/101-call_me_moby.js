@@ -6,4 +6,4 @@ function callMeMoby(x, theFunction) {
     callMeMoby();
   }
    
-  exports = callMeMoby;
+  exports = callMeMoby
