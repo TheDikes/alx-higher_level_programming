@@ -1,6 +1,4 @@
-ii/usr/bin/node
-//This script prints the addition of two integers
-
+#!/usr/bin/node
 function add (a, b) {
   const sum = a + b;
   console.log(sum);
