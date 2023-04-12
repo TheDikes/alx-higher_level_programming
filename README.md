@@ -1,28 +1,36 @@
-# 0x00. Python - Hello, World
-This folder contains a basic introduction of the python programming language.
+# Higher-level programming - Python, Databases & JavaScript
 
-### Note: When doing this project, After using text editor of your choice to create and access the file on insert mode.Ensure the first line of all your files should be exactly `#!/bin/bash`, then the second line is having the correct command/answer.
-(From your terminal, convert the file created to `SCRIPT` i.e: chmod u+x filename `Else the last checker on task 0 and task 1 won't check`)
+This repository contains programs written for the higher-level programming
+track at ALX SE Africa. In these projects, I will learn Python, MySQL and JavaScript.
+Simultaneously, I continued to reinforce and expand my skills in C and shell
+scripting. The specific list of projects is as follows:
 
-## Contents
-- [0-run](0-run) : a Shell script that runs a Python script.
-- [1-run_inline](1-run_inline) : a Shell script that runs Python code.
-- [2-print.py](2-print.py) : a Python script that prints exactly "Programming  is like building a multilingual puzzle, followed by a new line.
-- [3-print_number.py](3-print_number.py) : a program that prints the integer stored in the variable ```number``` , followed by Battery street, followed by a new line.
-- [4-print_float.py](4-print_float.py) :  print the float stored in the variable ```number``` with a precision of 2 digits.
-- [5-print_string.py](5-print_string.py) :  print 3 times a string stored in the variable str, followed by its first 9 characters.
-- [6-concat.py](6-concat.py) : print ```Welcome to Holberton School!```
-- [7-edges.py](7-edges.py) : print excluded characters of a given string.
-- [8-concat_edges.py](8-concat_edges.py) :  print object-oriented programming with Python, followed by a new line.
-- [9-easter_egg.py](9-easter_egg.py) : a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
-- [10-check_cycle.c](10-check_cycle.c) : AN INTERVIEW QUESTION - a function in C that checks if a singly linked list has a cycle in it.
-- [100-write.py](100-write.py) : a Python script that prints exactly ```and that piece of art is useful - Dora Korpar, 2015-10-19,``` followed by a new line.
-- [101-compile](101-compile) : a script that compiles a Python script file.
-- [102-magic_calculation.py](102-magic_calculation.py) : Python function ```def magic_calculation(a, b):``` that does exactly the same as the given Python bytecode
-- [lists.h](lists.h) : contains the header file used in [10-check_cycle.c](10-check_cycle.c)
+* [0x00. Python - Hello, World](./0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
+* [0x02. Python - import & modules](./0x02-python-import_modules)
+* [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+* [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](./0x05-python-exceptions)
+* [0x06. Python - Classes and Objects](./0x06-python-classes)
+* [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+* [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+* [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+* [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+* [0x10. Python - Network #0](./0x10-python-network_0)
+* [0x11. Python - Network #1](./0x11-python-network_1)
+* [0x12. Javascript - Warm up](./0x12-javascript-warm_up)
+* [0x13. Javascript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
+* [0x14. Javascript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery
 
-## Resources 
-- [Python documentation](https://docs.python.org/3/tutorial/index.html)
-- [Youtube series](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
-- [Pycodestyle guide](https://alx-intranet.hbtn.io/rltoken/zbSpP5Q7q3JUCAWDL2z9Wg)
-- [Understanding The Zen of Python](https://www.youtube.com/watch?v=uBHOb55-fBo)
+
+All work contained in this project will be completed as part of the curriculum for
+ALX SE. ALX SE is an online full-stack software
+engineering program that prepares students for careers in the tech industry
+using project-based peer learning. For more information, visit
+[this link](https://www.alxafrica.com/software-engineering).
