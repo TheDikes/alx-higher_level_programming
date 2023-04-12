@@ -6,5 +6,5 @@ if (!process.argv[2] || !process.argv[3]) {
 } else {
   const num = process.argv.slice(2);
   const sortedNum = num.sort((a, b) => b - a);
-  console.log(sortedNum[sortedNum[1]);
+  console.log(sortedNum[1]);
 }
