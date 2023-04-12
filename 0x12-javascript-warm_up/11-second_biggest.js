@@ -1,12 +1,10 @@
 #!/usr/bin/node
-//This code prints the second biggest integer in the list of arguments
+// This code prints the second largest number among the arguments passed to it.
 
-const args = process.argv.slice(2).map(Number);
-
-if (args.length <= 1) {
+if (!process.argv[2] || !process.argv[3]) {
   console.log(0);
 } else {
-  const sortedArgs = args.sort((a, b) => b - a);
-  let secondBiggest = sortedArgs[1];
-  console.log(secondBiggest);
+  const num = process.argv.slice(2);
+  const sortedNum = numb.sort((a, b) => b - a);
+  console.log(sortedNum[sortedNum[1]);
 }
