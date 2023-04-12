@@ -3,4 +3,4 @@ function add(a, b) {
   console.log(a + b)
 }
 
-add();
+add(Number(process.argv[2]), Number(process.argv[3]));
