@@ -1,12 +1,9 @@
-#!/usr/bin/node
-//Prints the addition of two integers
+ii/usr/bin/node
+//This script prints the addition of two integers
 
-const arg1 = process.argv[2];
-const arg2 = process.argv[3];
-
-function add(a, b) {
-  sum = a + b;
-  return(sum);
+function add (a, b) {
+  const sum = a + b;
+  console.log(sum);
 }
 
-add(Number(arg1), Number(arg2));
+add(Number(process.argv[2]), Number(process.argv[3]));
