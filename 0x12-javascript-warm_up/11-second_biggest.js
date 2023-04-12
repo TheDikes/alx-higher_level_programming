@@ -4,7 +4,7 @@
 if (!process.argv[2] || !process.argv[3]) {
   console.log(0);
 } else {
-  const num = process.argv.slice(2);
-  const sortedNum = num.sort((a, b) => b - a);
-  console.log(sortedNum(sortedNum[1]));
+  const numbers = process.argv.slice(2);
+  const sortedNumbers = numbers.sort((a, b) => a - b);
+  console.log(sortedNumbers[sortedNumbers.length - 2]);
 }
