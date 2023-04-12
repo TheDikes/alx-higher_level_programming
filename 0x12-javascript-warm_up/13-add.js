@@ -3,6 +3,6 @@
 
 add function(x, y) {
   return(x + y);
-};
+}
 
 exports = add
