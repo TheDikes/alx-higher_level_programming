@@ -14,7 +14,7 @@ if __name__ == '__main__':
         port=3306,
         host='localhost')
     cur = data_base.cursor()
-    cur.execute('SELECT * FROM states ORDER BY id ASC')
+    cur.execute('SELECT * FROM states')
 
     states = cursor.fetchall()
     for state in states:
