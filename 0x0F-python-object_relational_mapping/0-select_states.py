@@ -13,8 +13,8 @@ if __name__ == '__main__':
         db=sys.argv[3],
         port=3306,
         host='localhost')
-    cur = data_base.cursor()
-    cur.execute('SELECT * FROM states')
+    cur = db.cursor()
+    cur.execute('SELECT * FROM states ORDER BY id ASC')
 
     states = cursor.fetchall()
     for state in states:
