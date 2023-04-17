@@ -11,9 +11,9 @@ if __name__ == "__main__":
                          passwd=sys.argv[2], db=sys.argv[3], port=3306)
     cur = db.cursor()
     city = (sys.argv[4], )
-    query = """SELECT cities.name FROM
+    query = '''SELECT cities.name FROM
                 cities INNER JOIN states ON states.id=cities.state_id
-                WHERE states.name LIKE %s ORDER BY cities.id ASC"""
+                WHERE states.name = %s ORDER BY cities.id ASC'''
     cur.execute(query, city)
     rows = cur.fetchall()
     tmp = list(row[0] for row in rows)
