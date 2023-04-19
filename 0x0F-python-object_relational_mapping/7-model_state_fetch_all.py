@@ -8,13 +8,12 @@ from sqlalchemy.orm import sessionmaker
 
 
 if __name__ == "__main__":
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}' """create an engine to connect to db"""
                            .format(sys.argv[1], sys.argv[2], sys.argv[3]))
     Base.metadata.create_all(engine)
-    
-    """create a session factory"""
-    Session = sessionmaker(bind=engine)
+    Session = sessionmaker(bind=engine) """create a session factory"""
     session = Session()
     for instance in session.query(State).order_by(State.id):
         print(instance.id, instance.name, sep=": ")
-        session.close()
+     
+    session.close()
