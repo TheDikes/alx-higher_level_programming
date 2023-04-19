@@ -22,6 +22,5 @@ if __name__ == "__main__":
     for instance in session.query(State).order_by(State.id):
         print(instance.id, instance.name, sep=": ")
         
-        """commit changes and close session"""
     session.commit()
     session.close()
