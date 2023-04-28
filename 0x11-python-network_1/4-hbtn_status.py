@@ -4,7 +4,9 @@ import requests
 
 
 if __name__ == "__main__":
-    r = requests.get("https://intranet.hbtn.io/status")
+    response = requests.get("https://intranet.hbtn.io/status")
+    json_data = response.json()
+
     print("Body response:")
-    print("\t- type: {}".format(type(r.text)))
-    print("\t- content: {}".format(r.text))
+    print("\t- type:", type(json_data))
+    print("\t- content:", json_data)
