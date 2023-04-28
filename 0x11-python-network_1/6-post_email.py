@@ -8,11 +8,12 @@ import sys
 import requests
 
 if __name__ == "__main__":
+
     url = sys.argv[1]
     email = sys.argv[2]
 
-    payload = {'email': email}
+    print(f"Your email is: {email}")
 
-    res = requests.post(url, data=payload)
+    response = requests.post(url, data={"email": email})
 
-    print(res.txt)
+    print(response.text)
