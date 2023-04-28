@@ -2,7 +2,7 @@
 """A script that:
     -takes in a URL,
     -sends a request to the URL
-    -displays the body of the response (decoe in utf-8).
+    -displays the body of the response (decode in utf-8).
 """
 import urllib.request
 import urllib.error
@@ -14,8 +14,8 @@ if __name__ == "__main__":
 
     try:
         with urllib.request.urlopen(url) as response:
-            body = response.read().decode('utf-8')
+            body = response.read().decode('UTF-8')
             print(body)
-    except urllib.error.HTTPError as e:
-        print(f"Error code: {e.code}")
+    except error.HTTPError as e:
+        print('Error code:', e.code)
 
